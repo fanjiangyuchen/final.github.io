@@ -1,0 +1,36 @@
+h3{
+	margin-top: 20px;
+	font-size: 22px;
+	margin-left: 170px;
+	color: #6C6C6C;
+	margin-bottom: 30px;
+}
+h4{
+	margin-top: 20px;
+	font-size: 22px;
+	margin-left: 210px;
+	color: #6C6C6C;
+	margin-bottom: 30px;
+}
+#big{
+	height: 330px;
+	width: 330px;
+	overflow: hidden;
+	transform: scale(1,1);
+	transition: all 0.9s ease-out;
+	border-radius: 15px;
+}
+#big1{
+	height: 390px;
+	width: 330px;
+	overflow: hidden;
+	transform: scale(1,1);
+	transition: all 0.9s ease-out;
+	border-radius: 15px;
+}
+#big:hover{
+	transform:scale(1.12,1.12);
+}
+#big1:hover{
+	transform:scale(1.12,1.12);
+}
